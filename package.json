@@ -1,0 +1,34 @@
+{
+  "name": "omnimate-media-indexer",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mazhar1305/media-indexer#readme",
+  "bugs": {
+    "url": "https://github.com/Mazhar1305/media-indexer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mazhar1305/media-indexer.git"
+  },
+  "license": "ISC",
+  "author": "mazharuddin",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "hamming-distance": "^1.0.0",
+    "helmet": "^8.1.0",
+    "image-hash": "^7.0.1",
+    "mongoose": "^9.6.2",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.14",
+    "sharp": "^0.34.5"
+  }
+}
